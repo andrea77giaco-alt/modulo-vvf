@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uscita</title>
+  <meta name="theme-color" content="#7f1d1d">
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b0b0b;color:#fff;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:18px;}
+    .card{max-width:520px;width:100%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:18px 16px;box-shadow:0 12px 30px rgba(0,0,0,.35);}
+    h1{font-size:18px;margin:0 0 10px 0;}
+    p{margin:0 0 14px 0;line-height:1.35;color:rgba(255,255,255,.85);}
+    .btn{display:inline-block;text-decoration:none;background:#b91c1c;color:#fff;padding:10px 12px;border-radius:12px;font-weight:800;}
+    .sub{font-size:12px;opacity:.8;margin-top:10px;}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Uscita</h1>
+    <p>Puoi chiudere l’app dall’elenco delle app recenti. Tra un attimo tornerai automaticamente al modulo, così alla riapertura non vedi pagine esterne.</p>
+    <a class="btn" href="./Modulo_CS_v156.html">Torna subito al modulo</a>
+    <div class="sub">VVF • Modulo Intervento</div>
+  </div>
+  <script>
+    setTimeout(function(){
+      try{ location.replace('./Modulo_CS_v156.html'); }catch(e){ location.href='./Modulo_CS_v156.html'; }
+    }, 900);
+  </script>
+</body>
+</html>
